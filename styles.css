@@ -1,0 +1,168 @@
+
+/*==================================
+URL
+====================================*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;800&display=swap');
+
+/*==================================
+Variables
+====================================*/
+
+:root {
+    /* Fuentes */
+    --fuente-principal: 'Rubik', sans-serif;
+
+    /* Tamaño */
+    --delgada: 300;
+    --regular : 400;
+    --grande: 800;
+
+    /* Colores */
+    --azul: #164cff;
+    --gris-claro: #ececec;
+    --blanco: #ffffff;
+    --negro: #1a1a1a;
+    --rojo: #d83333;
+    --amarillo: #ffbb00;
+
+}
+
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    background-color: var(--gris-claro);    
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--fuente-principal);
+    text-transform: uppercase;
+    font-weight:var(--grande);
+    text-align: center;    
+}
+
+h1 {
+    font-size: 3.6rem;
+}
+h2 {
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 3.2rem;
+}
+h4 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none !important;
+    font-size: 2rem;
+}
+
+img, picture, video{
+    width: 100%;
+    display: block;
+}
+
+li {
+    list-style:none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/** Utilidades **/
+
+.contenedor{
+    width: min(80%, 120rem);
+    margin: 0 auto;
+}
+
+.seccion {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+/*==================================
+Header
+====================================*/
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegacion div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: right;
+}
+
+.navegacion p{
+    font-weight: var(--regular);
+    font-size: 3rem;
+    justify-content: left;
+}
+
+.navegacion a{
+    color: var(--regular);
+}
+
+.img-git{
+    width: 10%;
+}
+
+/*==================================
+SECCION MONEDAS
+====================================*/
+.card{
+    background-color: var(--blanco);
+    padding: 7%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px rgba(3, 19, 23, 0.25);
+}
+
+#monto{
+    padding: 1.5rem;
+    margin: 1rem;
+    outline: none;
+    background-color: #dfe;
+    border: 0;
+}
+
+.card select{
+    padding: 1.5rem;
+    margin: 1rem;
+    outline: none;
+    background-color: rgb(221, 235, 255);
+    border: 0;
+}
+
+option{
+    font-weight: var(--regular);
+    margin: 2rem;
+    padding: 2rem;
+}

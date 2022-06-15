@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="contenedor">
+            <ul class="navegacion">
+                <p><strong>API</strong> Currencies</p>
+                <div>
+                    <li><a href="#">Convertidor</a></li>
+                    <li><a href="https://www.frankfurter.app/">API</a></li>
+                    <a href="" class="img-git"><img src="/recursos/github-brands.svg" alt="git"></a>
+                </div>                
+            </ul>
+        </nav>
+    </header>
+
+    <form action="/index.html" method="get" class="contenedor card">
+        
+        <label for="Importe">Importe</label>
+        <input type="number" placeholder="Cantidad" name="Importe" id="monto">
+
+        <label for="Importe">De:</label>
+        <select name="select" id="divisa_1">
+            <option value="" selected disabled hidden>Seleccione una divisa</option>
+        </select>
+
+        <label for="Importe">A:</label>
+        <select name="select" id="divisa_2">
+            <option value="" selected disabled hidden>Seleccione una divisa</option>
+        </select>
+
+        <a href="#" id="send">Convertir</a>
+        <p id="cambio"></p> 
+
+    </form>        
+    
+    <script src="/app.js"></script>
+</body>
+</html>
