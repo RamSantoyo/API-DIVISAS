@@ -166,3 +166,22 @@ option{
     margin: 2rem;
     padding: 2rem;
 }
+
+/*==================================
+SECCION MONEDAS
+====================================*/
+#send{
+    background-color: var(--azul);
+    color: var(--blanco);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-weight: var(--regular);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.btn{
+    margin-top: 2.5rem;
+    margin-right: 5rem;
+    text-align: right;
+}

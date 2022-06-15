@@ -12,7 +12,7 @@ function opciones(divisa, nombre){//Funcion para mostrar las opciones de las div
 
 function divisa(fecha, money){//Funcion para mostrar la conversion 
   let conversor = document.getElementById("cambio");
-  conversor.innerHTML = money +" "+ fecha;
+  conversor.innerHTML = "Equivale a: $ " + money +'<br>'+ "Fecha de emision: " + fecha + '<br>'+ "Divisa: " + divisa_1 + "-" + divisa_2 + '<br>'+ "Renuncia de responsabilidad";
 }
 
   let id = document.getElementById("send"); //seleccionar el id del boton
