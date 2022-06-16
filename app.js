@@ -30,6 +30,10 @@ function divisa(fecha, money){//Funcion para mostrar la conversion
     }
   });
 
+  //Funcion para invertir texto
+  let mensaje = "Hola mundo";
+  const invertirCadena = cadena => cadena.split("").reverse().join("");
+  let invertir = "Cadena:" + invertirCadena(mensaje);
 
   //Llamar API
 
